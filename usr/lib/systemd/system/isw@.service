@@ -1,5 +1,5 @@
 [Unit]
-Description=ISW fan control service
+Description=ISW Fan Control Service
 After=sleep.target
 
 [Service]
