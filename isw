@@ -439,15 +439,15 @@ def main():
 │ Set your config in '/etc/isw.conf'.                                     │
 │ Arguments order is relevant, -c and -p can be used twice. Example:      │
 │ isw -cw '''+Text.ULINED+'''SECTION_NAME'''+Text.CLEAR+''' -c will show you EC dump before and after change.  │
-├─ SUPPORT ───────────────────────────────────────────────────────────────┤
-│ Help me support your laptop by providing following command output:      │
-│ isw -cp MSI_ADDRESS_DEFAULT                                             │
-│ via https://github.com/YoyPa/isw (open an issue).                       │
-│ Make sure your dump is made before altering EC with isw, you can reset  │
-│ your EC with a reboot or by changing power source.                      │
+├─ CREDITS ───────────────────────────────────────────────────────────────┤
+│ Originally developed by YoyPa, additional credits:                      │
+│ https://github.com/FaridZelli/ISW-Modern                                │
+│ https://github.com/BeardOverflow/isw                                    │
+│ Forked from:                                                            │
+│ https://github.com/YoyPa/isw                                            │
 ├─ NAME ──────────────────────────────────────────────────────────────────┤
 │ ISW is MSI at 180°                                                      │
-│ It means Ice-Sealed Wyvern in opposition to MSI's 'unleash the dragon'  │
+│ It means Ice-Sealed Wyvern in opposition to MSI's 'Unleash The Dragon'  │
 └─────────────────────────────────────────────────────────────────────────┘
 ''')
 	parser.add_argument('-b', type = ec_boost,
