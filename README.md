@@ -1,8 +1,8 @@
 # ISW Modern
 <img src="https://github.com/FaridZelli/ISW-Modern/blob/master/image/isw.svg" alt="" width="25%" align="right">
    
-A fork of https://github.com/YoyPa/isw with some improvements   
-Many thanks to [BeardOverflow](https://github.com/BeardOverflow/isw) for the ec_sys fixes
+A modern fork of https://github.com/YoyPa/isw with some improvements.   
+Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid) and [Benjamin Abendroth](https://github.com/braph) for their work.
    
 ---
    
@@ -17,19 +17,60 @@ sudo systemctl enable --now isw@SILENT.service
 ```
 
 Your fans should turn off. To use a custom profile, refer to instructions over at [the original repository](https://github.com/YoyPa/isw).   
-For other distros, see the [original instructions](https://github.com/YoyPa/isw#how-to-install). (May or may not work)
    
 ---
    
+- **Installation on Fedora / RPM distros:**   
+> Disable Secure Boot   
+> Uninstall any existing versions of ISW   
+> Open a terminal in your home directory and enter the following commands:   
+```
+sudo dnf upgrade
+sudo dnf install kernel-devel dkms make openssl
+```
+> Reboot, and again:   
+```
+git clone https://github.com/musikid/acpi_ec.git
+cd acpi_ec
+sudo ./install.sh
+```
+> Reboot one last time, and finally enter:   
+```
+git clone https://github.com/FaridZelli/ISW-Modern.git
+cd ISW-Modern
+sudo bash ./install.sh
+sudo systemctl enable --now isw@SILENT.service
+```
+   
+---
+   
+- **Installation on all distros:**   
+> Disable Secure Boot   
+> Update your distro to the latest version   
+> Uninstall any existing versions of ISW and reboot   
+> Install [Sayafdine Said's acpi_ec Module](https://github.com/musikid/acpi_ec)   
+> Reboot again   
+> Open a terminal in your home directory and enter the following commands:   
+```
+git clone https://github.com/FaridZelli/ISW-Modern.git
+cd ISW-Modern
+sudo bash ./install.sh
+sudo systemctl enable --now isw@SILENT.service
+```
+   
+---
+   
+In the unlikely event where neither of these approaches work for your device, try to piece it togeather using the [original instructions](https://github.com/YoyPa/isw#how-to-install).
+   
 ## FAQ:
 - **Q:** Why ISW-Modern?   
-**A:** I originally started looking into ISW for my MSI Modern 15, hence the name.
+**A:** I originally used ISW on my MSI Modern 15, hence the name.
 
 - **Q:** Is this a revival of ISW?   
 **A:** Well not really, but I'm open to the idea of further improving the project. Have a suggestion? Make a pull request, or start a discussion!
 
 - **Q:** Is the original project dead?   
-**A:** I don't know, but it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module which has been missing on many distros lately.
+**A:** I don't know, but it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module dependency which has been missing on many distros lately.
 
 - **Q:** My laptop exploded!   
 **A:** That's on you man.
@@ -38,11 +79,12 @@ For other distros, see the [original instructions](https://github.com/YoyPa/isw#
    
 ## Useful resources:
 - https://github.com/BeardOverflow/isw   
-- https://github.com/YoCodingMonster/OpenFreezeCenter   
-- https://github.com/nbfc-linux/nbfc-linux   
 - https://github.com/musikid/acpi_ec   
+- https://github.com/nbfc-linux/nbfc-linux   
+- https://github.com/nbfc-linux/nbfc-linux/issues/3   
+- https://github.com/YoCodingMonster/OpenFreezeCenter   
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=980555
    
 ---
    
-Fun fact: Turning off your laptop fans can improve battery life by up to 2 Hours on a well setup system.
+Fun fact: Turning off your laptop fans can improve battery life by up to 1 Hour on a lightweight system.
