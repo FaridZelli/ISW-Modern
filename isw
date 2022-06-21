@@ -10,7 +10,7 @@ from argparse import Action
 from argparse import RawTextHelpFormatter
 
 # Global vars
-EC_IO_FILE = '/sys/kernel/debug/ec/ec0/io'
+EC_IO_FILE = '/dev/ec'
 CFG_FILE = '/etc/isw.conf'
 
 # Text formating
