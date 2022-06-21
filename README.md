@@ -2,7 +2,7 @@
 <img src="https://github.com/FaridZelli/ISW-Modern/blob/master/image/isw.svg" alt="" width="25%" align="right">
    
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
-Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid) and [Benjamin Abendroth](https://github.com/braph) for their work.
+Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
 ---
    
