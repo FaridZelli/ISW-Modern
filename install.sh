@@ -1,5 +1,0 @@
-install -Dm 644 etc/isw.conf "${pkgdir}/etc/isw.conf"
-install -Dm 644 etc/modprobe.d/isw-ec_sys.conf "${pkgdir}/etc/modprobe.d/isw-ec_sys.conf"
-install -Dm 644 etc/modules-load.d/isw-ec_sys.conf "${pkgdir}/etc/modules-load.d/isw-ec_sys.conf"
-install -Dm 644 usr/lib/systemd/system/isw@.service "${pkgdir}/usr/lib/systemd/system/isw@.service"
-install -Dm 755 isw "${pkgdir}/usr/bin/isw"
