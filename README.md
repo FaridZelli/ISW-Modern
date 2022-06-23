@@ -73,7 +73,10 @@ In the unlikely event where neither of these approaches work for your device, tr
 **A:** I don't know, but it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module dependency which has been missing on many distros lately.
 
 - **Q:** My laptop exploded!   
-**A:** That's on you man.
+**A:** That's on you man.   
+   
+## To-do:
+- Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
    
 ---
    
@@ -87,4 +90,4 @@ In the unlikely event where neither of these approaches work for your device, tr
    
 ---
    
-Fun fact: Turning off your laptop fans can improve battery life by up to 1 Hour on a lightweight system.
+Fun fact: Turning off your laptop fans can improve battery life by up to 30 minutes on a lightweight system.
