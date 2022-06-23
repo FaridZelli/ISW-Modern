@@ -76,7 +76,7 @@ In the unlikely event where neither of these approaches work for your device, tr
 **A:** That's on you man.   
    
 ## To-do:
-- Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
+- Review and merge pull requests from [#256](https://github.com/YoyPa/isw/pull/256) and [#149](https://github.com/YoyPa/isw/pull/149)
    
 ---
    
