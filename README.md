@@ -81,6 +81,7 @@ In the unlikely event where neither of these approaches work for your device, tr
 ---
    
 ## Useful resources:
+- https://github.com/YoyPa/isw/issues/263
 - https://github.com/BeardOverflow/isw   
 - https://github.com/musikid/acpi_ec   
 - https://github.com/nbfc-linux/nbfc-linux   
