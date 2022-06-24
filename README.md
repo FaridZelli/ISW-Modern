@@ -2,7 +2,7 @@
 <img src="https://github.com/FaridZelli/ISW-Modern/blob/master/image/isw.svg" alt="" width="25%" align="right">
    
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
-Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
+Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
 ---
    
@@ -84,6 +84,7 @@ In the unlikely event where neither of these approaches work for your device, tr
 - https://github.com/YoyPa/isw/issues/263
 - https://github.com/BeardOverflow/isw   
 - https://github.com/musikid/acpi_ec   
+- https://github.com/marshevms/mlfc
 - https://github.com/nbfc-linux/nbfc-linux   
 - https://github.com/nbfc-linux/nbfc-linux/issues/3   
 - https://github.com/YoCodingMonster/OpenFreezeCenter   
