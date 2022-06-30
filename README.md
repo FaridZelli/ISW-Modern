@@ -20,6 +20,30 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
    
 ---
    
+- **Installation on Arch based distros:**   
+> Disable Secure Boot (It's unlikely to be enabled anyways)   
+> Uninstall any existing versions of ISW   
+> Open a terminal in your home directory and enter the following commands:   
+```
+sudo pacman -Syu
+sudo pacman -S linux-headers dkms
+```
+> Reboot, and again:   
+```
+git clone https://github.com/FaridZelli/acpi_ec.git
+cd acpi_ec
+sudo ./install.sh
+```
+> Reboot one last time, and finally enter:   
+```
+git clone https://github.com/FaridZelli/ISW-Modern.git
+cd ISW-Modern
+sudo bash ./install.sh
+sudo systemctl enable --now isw@SILENT.service
+```
+   
+---
+   
 - **Installation on Fedora / RPM distros:**   
 > Disable Secure Boot   
 > Uninstall any existing versions of ISW   
@@ -30,7 +54,7 @@ sudo dnf install kernel-devel dkms make openssl
 ```
 > Reboot, and again:   
 ```
-git clone https://github.com/musikid/acpi_ec.git
+git clone https://github.com/FaridZelli/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
@@ -70,24 +94,31 @@ In the unlikely event where neither of these approaches work for your device, tr
 **A:** Well not really, but I'm open to the idea of further improving the project. Have a suggestion? Make a pull request, or start a discussion!
 
 - **Q:** Is the original project dead?   
-**A:** I don't know, but it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module dependency which has been missing on many distros lately.
+**A:** Apparently yes, it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module dependency which has been missing on many distros lately. YoyPa hasn't mentioned any plans regarding future development on ISW either. Check out [MLFC](https://github.com/marshevms/mlfc), an awesome alternative under development.
 
 - **Q:** My laptop exploded!   
 **A:** That's on you man.   
    
 ## To-do:
-- Review and merge pull requests from [#256](https://github.com/YoyPa/isw/pull/256) and [#149](https://github.com/YoyPa/isw/pull/149)
+- Learn Python
+- Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
+- Cleanup isw.conf and use it as an address profile database (as per [Issue #1](https://github.com/FaridZelli/ISW-Modern/issues/1))
+- Switch to msi-ec and create a unified install script
+- Optimize polling rates and add a 90s downstep time delay (to 0%) for fans
+> - Actually complete one of the tasks stated above... or not
    
 ---
    
 ## Useful resources:
 - https://github.com/YoyPa/isw/issues/263
-- https://github.com/BeardOverflow/isw   
-- https://github.com/musikid/acpi_ec   
+- https://github.com/BeardOverflow/isw
+- https://github.com/BeardOverflow/msi-ec
+- https://github.com/musikid/acpi_ec
 - https://github.com/marshevms/mlfc
-- https://github.com/nbfc-linux/nbfc-linux   
-- https://github.com/nbfc-linux/nbfc-linux/issues/3   
-- https://github.com/YoCodingMonster/OpenFreezeCenter   
+- https://github.com/nbfc-linux/nbfc-linux
+- https://github.com/nbfc-linux/nbfc-linux/issues/3
+- https://github.com/YoCodingMonster/OpenFreezeCenter
+- https://bugzilla.redhat.com/show_bug.cgi?id=1943318
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=980555
    
 ---
