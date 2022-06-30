@@ -101,12 +101,11 @@ In the unlikely event where neither of these approaches work for your device, tr
 **This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
    
 ## To-do:
-- Learn Python
 - Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
 - Cleanup isw.conf and use it as an address profile database (as per [Issue #1](https://github.com/FaridZelli/ISW-Modern/issues/1))
 - Switch to msi-ec and create a unified install script
 - Optimize polling rates and add a 90s downstep time delay (to 0%) for fans
-> - Actually complete one of the tasks stated above... or not
+> - Actually complete one of the tasks stated above... or not (I'M LAZY)
    
 ---
    
