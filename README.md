@@ -98,6 +98,7 @@ In the unlikely event where neither of these approaches work for your device, tr
 
 - **Q:** My laptop exploded!   
 **A:** That's on you man.   
+**This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
    
 ## To-do:
 - Learn Python
