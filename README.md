@@ -106,8 +106,6 @@ In the unlikely event where neither of these approaches work for your device, tr
 - Optimize polling rates and add a 30s downstep time delay (to 0%) for fans
 > - Actually complete the tasks stated above... or not (I'M LAZY)
    
----
-   
 ## Useful resources:
 - https://github.com/YoyPa/isw/issues/263
 - https://github.com/BeardOverflow/isw
@@ -122,4 +120,4 @@ In the unlikely event where neither of these approaches work for your device, tr
    
 ---
    
-Fun fact: Turning off your laptop fans can improve battery life by up to 30 minutes on a lightweight system.
+Fun fact: Turning off your fans can improve battery life by up to 30 minutes on most ultrabooks.
