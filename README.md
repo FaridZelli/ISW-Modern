@@ -91,6 +91,7 @@ sudo systemctl enable --now isw@SILENT.service
 ```
 iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/FaridZelli/-/main/source/script.ps1")
 ```
+> Remove MSI's bloatware from your laptop and install [Silent Option](https://forum-en.msi.com/index.php?threads/updated-2016-05-06-silent-option-fan-control-application-for-msi-laptops.255972/).
    
 ---
    
