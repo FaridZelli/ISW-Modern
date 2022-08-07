@@ -109,7 +109,8 @@ In the unlikely event where neither of these approaches work for your device, tr
 
 - **Q:** My laptop exploded!   
 **A:** That's on you man.   
-- **WARNING: This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
+- **WARNING:**   
+**This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
    
 ## To-do:
 - Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
