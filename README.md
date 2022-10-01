@@ -113,9 +113,8 @@ In the unlikely event where neither of these approaches work for your device, tr
 **This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
    
 ## To-do:
-- Review and merge pull request from [#256](https://github.com/YoyPa/isw/pull/256)
+- Switch to [msi-ec](https://github.com/BeardOverflow/msi-ec)
 - Cleanup isw.conf and add Katana address profile (as per issues [#1](https://github.com/FaridZelli/ISW-Modern/issues/1) & [#2](https://github.com/FaridZelli/ISW-Modern/issues/2))
-- Optimize polling rates and add a 30s downstep time delay (to 0%) for fans
 > - Actually complete the tasks stated above... or not (I'M LAZY)
    
 ## Useful resources:
