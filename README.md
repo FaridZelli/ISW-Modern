@@ -4,6 +4,9 @@
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
+- Please don't send EC dumps unless you've encountered an issue.
+- [**> Project Status Update**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
+   
 ---
    
 - **Installation on Debian based distros:**   
@@ -123,6 +126,7 @@ In the unlikely event where neither of these approaches work for your device, tr
 - https://github.com/BeardOverflow/msi-ec
 - https://github.com/musikid/acpi_ec
 - https://github.com/marshevms/mlfc
+- https://github.com/dmitry-s93/MControlCenter
 - https://github.com/nbfc-linux/nbfc-linux
 - https://github.com/nbfc-linux/nbfc-linux/issues/3
 - https://github.com/YoCodingMonster/OpenFreezeCenter
