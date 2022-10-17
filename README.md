@@ -9,7 +9,31 @@ Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Sai
    
 ---
    
-- **Installation on Debian based distros:**   
+- **Installation on Debian / Ubuntu based distros:**   
+> Disable Secure Boot   
+> Uninstall any existing versions of ISW   
+> Open a terminal in your home directory and enter the following commands:   
+```
+sudo apt update && apt upgrade
+sudo apt install dkms build-essential linux-headers-$(uname -r)
+```
+> Reboot, and again:   
+```
+git clone https://github.com/FaridZelli/acpi_ec.git
+cd acpi_ec
+sudo ./install.sh
+```
+> Reboot one last time, and finally enter:   
+```
+git clone https://github.com/FaridZelli/ISW-Modern.git
+cd ISW-Modern
+sudo bash ./install.sh
+sudo systemctl enable --now isw@SILENT.service
+```
+   
+---
+   
+- **(Alternative) Debian package:**   
 > Disable Secure Boot   
 > Uninstall any existing versions of ISW and reboot   
 > Download the [Debian Package](https://github.com/FaridZelli/ISW-Modern/releases/download/M-1.0/ISW-Modern_M-1.0_amd64.deb)   
@@ -18,8 +42,6 @@ Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Sai
 sudo apt install ./ISW-Modern*.deb
 sudo systemctl enable --now isw@SILENT.service
 ```
-
-Your fans should turn off. To use a custom profile, refer to instructions over at [the original repository](https://github.com/YoyPa/isw).   
    
 ---
    
@@ -47,7 +69,7 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
-- **Installation on Fedora / RPM distros:**   
+- **Installation on Fedora / CentOS / RHEL based distros:**   
 > Disable Secure Boot   
 > Uninstall any existing versions of ISW   
 > Open a terminal in your home directory and enter the following commands:   
@@ -98,7 +120,7 @@ iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com
    
 ---
    
-In the unlikely event where neither of these approaches work for your device, try to piece it togeather using the [original instructions](https://github.com/YoyPa/isw#how-to-install).
+Your fans should turn off. To use a custom profile, refer to instructions over at [the original repository](https://github.com/YoyPa/isw). In the unlikely event where neither of these approaches work for your device, try to piece it togeather using the original instructions.
    
 ## FAQ:
 - **Q:** Why ISW-Modern?   
