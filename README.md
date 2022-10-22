@@ -126,6 +126,9 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
 - **Q:** Why ISW-Modern?   
 **A:** I originally used ISW on my MSI Modern 15, hence the name.
 
+- **Q:** Can I enable Secure Boot?   
+**A:** It may not work with some distros, see [this issue](https://github.com/YoyPa/isw/issues/265).
+
 - **Q:** Is this a revival of ISW?   
 **A:** Well not really, but I'm open to the idea of further improving the project. Have a suggestion? Make a pull request, or start a discussion!
 
