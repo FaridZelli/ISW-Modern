@@ -4,8 +4,8 @@
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
-- Please don't send EC dumps unless you've encountered an issue.
-- [**> Project Status Update**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
+- UPDATE: Sold my laptop, this fork is no longer maintained.
+- [**> Project Status Updates**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
    
 ---
    
