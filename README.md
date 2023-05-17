@@ -2,10 +2,7 @@
 <img src="https://github.com/FaridZelli/ISW-Modern/blob/master/image/isw.svg" alt="" width="25%" align="right">
    
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
-Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
-   
-- UPDATE: Sold my laptop, this fork is no longer maintained.
-- [**> Project Status Updates**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
+Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms), [FaridZelli](https://github.com/FaridZelli) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
 ---
    
