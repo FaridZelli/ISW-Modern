@@ -1,3 +1,0 @@
-etc
-isw usr/bin
-dkms/* usr/src/isw-${env:DEB_VERSION}
