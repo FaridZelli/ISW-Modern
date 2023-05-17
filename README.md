@@ -140,7 +140,7 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
 ## To-do:
 - Switch to [msi-ec](https://github.com/BeardOverflow/msi-ec)
 - Cleanup isw.conf and add Katana address profile (as per issues [#1](https://github.com/FaridZelli/ISW-Modern/issues/1) & [#2](https://github.com/FaridZelli/ISW-Modern/issues/2))
-> - Actually complete the tasks stated above... or not (I'M LAZY)
+
    
 ## Useful resources:
 - https://github.com/YoyPa/isw/issues/263
