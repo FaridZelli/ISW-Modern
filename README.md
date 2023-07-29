@@ -19,7 +19,7 @@ sudo apt install dkms build-essential linux-headers-$(uname -r)
 ```
 > Reboot, and again:   
 ```
-git clone https://github.com/FaridZelli/acpi_ec.git
+git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
@@ -55,7 +55,7 @@ sudo pacman -S linux-headers dkms
 ```
 > Reboot, and again:   
 ```
-git clone https://github.com/FaridZelli/acpi_ec.git
+git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
@@ -79,7 +79,7 @@ sudo dnf install kernel-devel dkms make openssl
 ```
 > Reboot, and again:   
 ```
-git clone https://github.com/FaridZelli/acpi_ec.git
+git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
