@@ -4,8 +4,9 @@
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
-- UPDATE: Sold my laptop, this fork is no longer maintained.
+- Note: This fork is no longer maintained.
 - [**> Project Status Updates**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
+- [**> Alternatives**](https://github.com/YoyPa/isw/issues/263)
    
 ---
    
@@ -147,17 +148,16 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
    
 ## Useful resources:
 - https://github.com/YoyPa/isw/issues/263
-- https://github.com/BeardOverflow/isw
 - https://github.com/BeardOverflow/msi-ec
 - https://github.com/musikid/acpi_ec
 - https://github.com/marshevms/mlfc
 - https://github.com/dmitry-s93/MControlCenter
+- https://github.com/YoCodingMonster/OpenFreezeCenter
 - https://github.com/nbfc-linux/nbfc-linux
 - https://github.com/nbfc-linux/nbfc-linux/issues/3
-- https://github.com/YoCodingMonster/OpenFreezeCenter
 - https://bugzilla.redhat.com/show_bug.cgi?id=1943318
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=980555
    
 ---
    
-Fun fact: Turning off your fans can improve battery life by up to 30 minutes on most ultrabooks.
+Fun fact: Turning off your fans may improve battery life by up to 30 minutes on most ultrabooks.
