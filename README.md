@@ -5,8 +5,8 @@ A modern fork of https://github.com/YoyPa/isw with some improvements.
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
    
 - Note: This fork is no longer maintained.
-- [**> Project Status Updates**](https://github.com/FaridZelli/ISW-Modern/discussions/11)
-- [**> Alternatives**](https://github.com/YoyPa/isw/issues/263)
+- [Project Status Updates](https://github.com/FaridZelli/ISW-Modern/discussions/11)
+- [Alternatives](https://github.com/YoyPa/isw/issues/263)
    
 ---
    
@@ -157,7 +157,3 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
 - https://github.com/nbfc-linux/nbfc-linux/issues/3
 - https://bugzilla.redhat.com/show_bug.cgi?id=1943318
 - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=980555
-   
----
-   
-Fun fact: Turning off your fans may improve battery life by up to 30 minutes on most ultrabooks.
