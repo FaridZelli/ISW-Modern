@@ -1,5 +1,5 @@
 # ISW Modern
-<img src="https://github.com/FaridZelli/ISW-Modern/blob/master/image/isw.svg" alt="" width="25%" align="right">
+<img src="image/isw.svg" alt="" width="25%" align="right">
    
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
@@ -139,9 +139,9 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
 - **Q:** My laptop exploded!   
 **A:** That's on you man.   
 - **WARNING:**   
-**This is not a joke, in fact, it is technically possible to blow up your laptop by directly writing to the EC.**   
+**This is not a joke, in fact, it is theoretically possible to blow up your laptop by directly writing to the EC.**   
    
-## To-do:
+## To do:
 - Switch to [msi-ec](https://github.com/BeardOverflow/msi-ec)
 - Cleanup isw.conf and add Katana address profile (as per issues [#1](https://github.com/FaridZelli/ISW-Modern/issues/1) & [#2](https://github.com/FaridZelli/ISW-Modern/issues/2))
 > - Actually complete the tasks stated above... or not (I'M LAZY)
